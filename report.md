@@ -1,4 +1,4 @@
-# 10주차 실습 보고서  
+# 10주차 실습 보고서
 ## 충격 특성 분석 및 손상 예측 모델링
 
 ---
@@ -17,12 +17,12 @@ Python 기반 시뮬레이션과 가상의 Tracker 속도 데이터를 활용하
 
 반발 계수는 충돌 전후 속도의 비율을 의미하며 다음과 같이 계산된다.
 
-\[
-e = \frac{|v_2|}{|v_1|}
-\]
+```text
+e = |v2| / |v1|
+```
 
-- \(v_1\): 충돌 직전 속도
-- \(v_2\): 충돌 직후 속도
+- v1 : 충돌 직전 속도
+- v2 : 충돌 직후 속도
 
 반발 계수가 클수록 더 탄성적으로 튕겨오르게 된다.
 
@@ -32,12 +32,12 @@ e = \frac{|v_2|}{|v_1|}
 
 충격력은 운동량 변화량과 충돌 지속 시간을 이용하여 계산하였다.
 
-\[
-F = m \frac{(v_2-v_1)}{\Delta t}
-\]
+```text
+F = m × (v2 - v1) / Δt
+```
 
-- \(m\): 과일 질량
-- \(\Delta t\): 충돌 지속 시간
+- m : 과일 질량
+- Δt : 충돌 지속 시간
 
 충돌 시간이 짧을수록 더 큰 충격력이 발생한다.
 
@@ -81,7 +81,7 @@ F = m \frac{(v_2-v_1)}{\Delta t}
 
 ### 5.1 Fruit Drop Height-Time Graph
 
-![Fruit Drop Height-Time Graph](images/impact_analysis_result.png)
+![Fruit Drop Height-Time Graph](impact_analysis_result.png)
 
 **Fig. 1. Fruit Drop Height-Time Graph**
 
@@ -93,7 +93,7 @@ F = m \frac{(v_2-v_1)}{\Delta t}
 
 ### 5.2 Impact Force-Time Graph and Damage Threshold Comparison
 
-![Impact Force-Time Graph and Damage Threshold Comparison](images/impact_analysis_result.png)
+![Impact Force-Time Graph and Damage Threshold Comparison](impact_analysis_result.png)
 
 **Fig. 2. Impact Force-Time Graph and Damage Threshold Comparison**
 
