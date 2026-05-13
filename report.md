@@ -73,7 +73,7 @@ F = m × (v2 - v1) / Δt
 4. 충격력 계산
 5. 손상 임계치와 비교
 
-사용한 코드는 `step1_impact_analysis.py` 파일에 작성하였다.
+사용한 코드는 `step2_impact_analysis_static` 파일에 작성하였다.
 
 ---
 
