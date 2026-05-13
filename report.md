@@ -81,7 +81,7 @@ F = m × (v2 - v1) / Δt
 
 ### 5.1 Fruit Drop Height-Time Graph
 
-![Fruit Drop Height-Time Graph](impact_analysis_result.png)
+![Fruit Drop Height-Time Graph](Fruit%20Drop%20Height-Time%20Graph.png)
 
 **Fig. 1. Fruit Drop Height-Time Graph**
 
@@ -93,7 +93,7 @@ F = m × (v2 - v1) / Δt
 
 ### 5.2 Impact Force-Time Graph and Damage Threshold Comparison
 
-![Impact Force-Time Graph and Damage Threshold Comparison](impact_analysis_result.png)
+![Impact Force-Time Graph and Damage Threshold Comparison](Impact%20Force-Time%20Graph%20and%20Damage%20Threshold%20Comparison.png)
 
 **Fig. 2. Impact Force-Time Graph and Damage Threshold Comparison**
 
